@@ -1,5 +1,14 @@
-/* assets/css/app.css */
+/* assets/styles/app.css */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Garamond';
+    src: url('../fonts/GARA.TTF') format('truetype');
+  }
+
+h1 {
+  font-family: 'Garamond';
+}
